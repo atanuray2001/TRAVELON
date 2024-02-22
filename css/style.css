@@ -1,0 +1,465 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Kanit:wght@400;700;800&family=Poppins:wght@400;700&family=Raleway:wght@200;400&display=swap');
+
+h4 {
+	font-family: 'Raleway', sans-serif;
+}
+
+h1, h2{
+	font-family: 'Kanit', sans-serif;
+	
+}
+
+
+p {
+	font-family: 'Poppins', sans-serif;
+}
+
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+.logo {
+	color: yellow;
+}
+
+.menu_item{ 
+	display:inline-block; 
+	padding: 2% 5%;
+}
+.menu{ 
+	text-align: end; 
+	margin-bottom: 0;
+}
+
+.menu_item a {
+	text-decoration: none;
+	color: white;
+}
+
+.slide{
+	position: relative;
+    top: -76px;
+    z-index: -1;
+}
+.navigation{ 
+	border-bottom: 1px #FFFFFF solid;
+	background-color: rgba(53, 53, 53, 0.8);
+	backdrop-filter: blur(5px);
+	position: sticky;
+	top: 0px;
+}
+
+.slider_text_area {
+	position: absolute;
+	text-align: center;
+	top:40%;
+	left: 10%;
+}
+
+
+.text_box{ 
+	       background: linear-gradient(to right, orange , yellow);
+	       padding: 20px 0px;
+           width:500px; margin-left: 26%; border-radius: 30px 0px 30px 0px;
+}
+
+
+.slider_head_2 {
+	color: white;
+	font-weight: bold;
+	font-size: 55px;
+}
+
+.slider_para {
+	color: white;
+}
+
+.slider_btn {
+	padding: 15px 50px;
+	border-radius: 30px;
+	background-color: rgba(140,140,140,0.00);
+	border: 2px solid white;
+	color: white;
+	font-weight: bold;
+}
+
+
+/*section 1*/
+
+.sec1_head_area {
+	text-align: center;
+}
+
+.sec1_box_area {
+	text-align: center;
+}
+
+.sec1_box {
+	padding: 60px 0px;
+}
+
+.sec1_box:hover {
+	box-shadow: 0px 0px 10px 2px rgb(190, 190, 190);
+}
+
+/* .container {
+	margin-top: 30px;
+} */
+
+
+/*section 2*/
+
+
+.sec2 {
+	margin: 70px 0px;
+}
+
+.sec2_main{
+	padding: 50px 80px;
+	text-align: justify;
+	box-shadow: 0px 1px 10px 5px rgb(207, 207, 207);
+}
+
+.sec2_tick {
+	margin-top: 30px;
+}
+
+.sec2_tick i{
+	display: inline-block;
+	color: rgb(255, 196, 0);
+}
+
+.sec2_tick_info {
+	display: inline-block;
+	margin-left: 5px;
+}
+
+.sec2_bg {
+	background-image: url(../image/pexels-photo-5664491.jpeg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+
+/*section 3*/
+
+.sec3 {
+	margin: 100px 0px;
+}
+
+.sec3_text_area {
+	text-align: center;
+}
+
+.sec3_img1 {
+	height: 100%;
+	width: 100%;
+	background-image: url(../image/8oDaIq.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+.sec3_img2 {
+	height: 100%;
+	width: 100%;
+	background-image: url(../image/fe69af2fff9a0cf2badffc24929cd3ec.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+.sec3_img3 {
+	height: 100%;
+	width: 100%;
+	background-image: url(../image/FPk36FLXoAI5E1o.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+.sec3_img4 {
+	height: 100%;
+	width: 100%;
+	background-image: url(../image/glx2008-01f_img01_small.jpg);
+	background-position: center;
+	background-size: cover;
+
+}
+
+.sec3_img5 {
+	height: 100%;
+	width: 100%;
+	background-image: url(../image/cuda-x-og-social-share-1200x1200.jpg);
+	background-position: center;
+	background-size: cover;
+}
+.sec3_img6 {
+	height: 200px;
+	width: 100%;
+	background-image: url(../image/sol_branding_design_design_HBanner_noText-1200x1200.png);
+	background-position: center;
+	background-size: cover;
+}
+
+
+
+/*section 4*/
+
+.sec4 {
+	margin: 50px 0px;
+}
+
+
+/*section 5*/
+
+.sec5 {
+	margin: 80px 0px;
+}
+
+.sec5_area {
+	padding: 0px !important;
+	z-index: -1
+}
+
+.sec5_bg {
+	background-image: url(../image/pexels-photo-10573295.jpeg);
+	background-position: center;
+	background-size: cover;
+}
+
+.sec5_main {
+	padding: 160px 80px ;
+	text-align: justify;
+	box-shadow: 0px 1px 10px 5px rgb(207, 207, 207);
+}
+
+.sec5_para{
+	margin: 30px 0px;
+}
+
+.sec5_link {
+	text-decoration: none;
+	color: rgb(161, 161, 161);
+}
+
+
+/*section 6*/
+
+.sec6 {
+	padding: 50px 0px;
+}
+
+.sec6_text_area {
+	text-align: center;
+}
+
+.sec6_img_area img{
+	width: 100%;
+}
+
+.sec6_box_text1 {
+	margin-top: 15px;
+}
+
+
+/*section 7*/
+
+.sec7 {
+	padding: 50px 0px;
+	background-color:#EFEFEF;
+}
+
+.sec7_head {
+	margin-bottom: 50px;
+}
+
+.sec7_row {
+	margin: 30px 0px;
+}
+
+.sec7_img_size img{
+	width: 100%;
+	height: 100%;
+}
+
+.sec7_img_size {
+	padding: 0px !important;
+}
+
+
+/* srection 8 */
+
+.sec8 {
+	padding: 50px 0px;
+}
+
+.sec8_text_area {
+	text-align: center;
+}
+
+.sec8_box {
+	text-align: center;
+}
+
+.sec8_box img{
+	height: auto;
+	width: 100%;
+}
+
+.sec8_box_head1 {
+	margin-top: 10px;
+}
+
+
+/*section 9*/
+
+.sec9 {
+	padding: 100px 0px;
+	background-color:#EFEFEF;
+}
+
+.sec9_text_area {
+	text-align: center;
+}
+
+.sec9 i {
+	font-size:45px;
+}
+
+/*section 10*/
+
+.sec10 {
+	text-align:center;
+	padding:50px 0px;
+}
+
+.sec10_circle {
+	height:200px;
+	width:200px;
+	border:4px solid rgb(255, 196, 0);
+	border-radius: 50%;
+	text-align:center;
+	padding-top :75px;
+	margin:auto;
+}
+
+.sec10_box_head {
+	margin-top:20px;
+}
+
+
+/*map*/
+
+iframe {
+	width: 100%;
+	height: 400px;
+}
+
+/*section 11*/
+
+.sec11 {
+	padding: 50px 0px;
+	background-color:#EFEFEF;
+}
+
+.sec11 i {
+	font-size: 35px;
+}
+
+
+/*section 12*/
+
+.sec12 {
+	padding: 50px 0px;
+}
+
+.sec12_head_area {
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.sec12_main {
+	width: 40%;
+	margin: auto;
+}
+
+.sec12_gap {
+	margin: 30px 0px;
+}
+
+.sec12_text {
+	margin-bottom: 5px;
+}
+
+.sec12_gap input {
+	padding: 10px;
+}
+
+.sec12_gap select {
+	padding: 10px;
+}
+
+.sec12_gap textarea {
+	padding: 10px;
+}
+
+.sec12_btn {
+	border: none;
+	border-radius: 25px;
+	padding: 15px 25px;
+	background-color: orange;
+	color: white;
+}
+
+
+/*section 13*/
+
+.sec13 {
+	background-image: url(https://images.pexels.com/photos/1529881/pexels-photo-1529881.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+	background-position: center;
+	background-size: cover;
+	padding: 90px;
+}
+
+.sec13_head {
+	color: white;
+}
+
+.sec13_btn {
+	background-color: rgba(140,140,140,0.00);
+	color: white;
+	border: 2px solid white;
+	border-radius: 25px;
+	padding: 10px 25px;
+}
+
+
+/*footer*/
+
+.foot {
+	padding: 50px;
+	color: white;
+	background-color: rgb(54, 54, 54);
+}
+
+.foot_head {
+	margin-bottom: 25px;
+}
+
+
+/*end*/
+
+.end {
+	padding: 15px;
+	color: white;
+	background-color: rgb(24, 24, 24);
+}
+
+.end_head {
+	text-align: right;
+}
+
+.end_para {
+	margin-top: 20px;
+}
